@@ -87,7 +87,8 @@ class ExpandableComponent extends Component {
                             ...transitionStyles[state]
                         }}>
                             <div onClick={this.toggleState}>
-                                <div ref={(elem) => this.constPart = elem} className="const-part">
+                                <div ref={(elem) => this.constPart = elem}
+                                     className="const-part">
                                     <h1>
                                         "The colour of the magic"
                                     </h1>
@@ -97,7 +98,8 @@ class ExpandableComponent extends Component {
                                         </Col>
                                     </Row>
                                 </div>
-                                <div ref={(elem) => this.dynamicPart = elem} className="dynamic-part">
+                                <div ref={(elem) => this.dynamicPart = elem}
+                                     className="dynamic-part">
                                     <br/>
                                     <Well>{this.state.quote}</Well>
                                 </div>
