@@ -1,0 +1,19 @@
+.fade-appear {
+    opacity: 0.01;
+    border: 1px solid #000;
+}
+
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    border: 1px solid red;
+    transition: opacity 500ms ease-in;
+}
+
+.list-group-item {
+    padding: 0px 15px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex !important;
+    justify-content: space-between;
+}
