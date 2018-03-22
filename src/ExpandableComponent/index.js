@@ -75,7 +75,7 @@ class ExpandableComponent extends Component {
         }
 
         return (
-            <div className={componentClass} ref="some">
+            <div className={componentClass}>
                 <Transition in={!collapsed}
                             timeout={duration}
                             onExited={() => {
